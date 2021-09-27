@@ -12,7 +12,7 @@ class Students:
         if self.name:
             logging.warning(self.name)
         else:
-            logging.warning("The name is not provided")
+            logging.arning("The name is not provided")
 
 
 s=Students("Chaithanya", "500")
